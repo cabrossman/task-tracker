@@ -18,15 +18,16 @@ def show_tasks():
         print(f"[{status}] {task['name']}")
 
 
-add_task("Buy groceries")
-add_task("Go to gym")
-add_task("Study ML")
-add_task("Read a chapter of a book")
-add_task("Do laundry")
-add_task("Water the plants")
-add_task("Plan meals for the week")
-add_task("Practice Python")
+if __name__ == "__main__":
+    add_task("Buy groceries")
+    add_task("Go to gym")
+    add_task("Study ML")
+    add_task("Read a chapter of a book")
+    add_task("Do laundry")
+    add_task("Water the plants")
+    add_task("Plan meals for the week")
+    add_task("Practice Python")
 
-complete_task("Go to gym")
+    complete_task("Go to gym")
 
-show_tasks()
+    show_tasks()
